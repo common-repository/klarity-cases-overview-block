@@ -1,0 +1,30 @@
+.wp-block-klarity-klarity-cases-overview-block {
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2px;
+
+  .case {
+    &.resolved {
+      .col {
+        display: inline-block;
+        &.thumbnail-container {
+          width: 30%;
+        }
+
+        &.description {
+          width: 60%;
+        }
+      }
+    }
+  }
+
+
+  a {
+    cursor: default;
+    text-decoration: none !important;
+
+    div {
+      color: black;
+    }
+  }
+}
